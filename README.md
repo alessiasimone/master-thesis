@@ -7,3 +7,11 @@ However, many scientists are still investigating the proposal of intelligent wea
 While supervised learning models are presented as a more agile solution, deep learning models usually appear more laborious but more accurate. 
 This project compares both solutions to balance model capability and accuracy, aiming to propose a tool to support experts in the field during psychological therapies. 
 
+## Machine Learning
+### Data Preprocessing
+### Results
+
+## Deep Learning
+### Data Augmentation
+### Results
+
