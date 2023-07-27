@@ -7,6 +7,38 @@ However, many scientists are still investigating the proposal of intelligent wea
 While supervised learning models are presented as a more agile solution, deep learning models usually appear more laborious but more accurate. 
 This project compares both solutions to balance model capability and accuracy, aiming to propose a tool to support experts in the field during psychological therapies. 
 
+### Folder Structure
+codes/
+├─ EDA.ipynb
+├─ data_preprocessing.ipynb
+├─ preprocessing_wesad.ipynb
+├─ ML/
+│  ├─ classifier.sav
+│  ├─ machine_learning.ipynb
+│  ├─ scaler.pkl
+├─ DL/
+│  ├─ LSTM.ipynb
+individual_lag_features/
+├─ lags_dataset_0.csv
+├─ lags_dataset_1.csv
+├─ lags_dataset_2.csv
+├─ lags_dataset_3.csv
+├─ lags_dataset_4.csv
+├─ lags_dataset_5.csv
+├─ lags_dataset_6.csv
+├─ lags_dataset_7.csv
+├─ lags_dataset_8.csv
+├─ lags_dataset_9.csv
+├─ lags_dataset_10.csv
+├─ lags_dataset_11.csv
+├─ lags_dataset_12.csv
+├─ lags_dataset_13.csv
+├─ lags_dataset_14.csv
+README.md
+lags_dataset.csv
+scaled_dataset.csv
+
+
 ## Machine Learning
 This project evaluates extracted statistical lag features from the BPM and Skin Temperature signals with an overlapping window of 3 seconds. The models which have been tried out were: Logistic Regression, Gaussian Naive Bayes, Random Forest and Extreme Gradient Boosting. The optimal model regarding the weighted F1 score and score time has been chosen. Halving Grid Search with Leave-One-Subject-Out cross-validation technique has been used to train and validate the models with the optimal hyperparameters.
 
