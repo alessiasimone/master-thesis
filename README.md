@@ -8,6 +8,7 @@ While supervised learning models are presented as a more agile solution, deep le
 This project compares both solutions to balance model capability and accuracy, aiming to propose a tool to support experts in the field during psychological therapies. 
 
 ### Folder Structure
+```
 codes/
 ├─ EDA.ipynb
 ├─ data_preprocessing.ipynb
@@ -37,7 +38,7 @@ individual_lag_features/
 README.md
 lags_dataset.csv
 scaled_dataset.csv
-
+```
 
 ## Machine Learning
 This project evaluates extracted statistical lag features from the BPM and Skin Temperature signals with an overlapping window of 3 seconds. The models which have been tried out were: Logistic Regression, Gaussian Naive Bayes, Random Forest and Extreme Gradient Boosting. The optimal model regarding the weighted F1 score and score time has been chosen. Halving Grid Search with Leave-One-Subject-Out cross-validation technique has been used to train and validate the models with the optimal hyperparameters.
