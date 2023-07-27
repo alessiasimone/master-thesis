@@ -19,6 +19,10 @@ codes/
 │  ├─ scaler.pkl
 ├─ DL/
 │  ├─ LSTM.ipynb
+├─ arduino/
+│  ├─ Classifier.h
+│  ├─ Final_code.ino
+│  ├─ Scaler.h
 individual_lag_features/
 ├─ lags_dataset_0.csv
 ├─ lags_dataset_1.csv
@@ -38,6 +42,7 @@ individual_lag_features/
 README.md
 lags_dataset.csv
 scaled_dataset.csv
+
 ```
 
 ## Machine Learning
