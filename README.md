@@ -31,10 +31,10 @@ README.md
 This project evaluates extracted statistical lag features from the BPM and Skin Temperature signals with an overlapping window of 3 seconds. The models which have been tried out were: Logistic Regression, Gaussian Naive Bayes, Random Forest and Extreme Gradient Boosting. The optimal model regarding the weighted F1 score and score time has been chosen. Halving Grid Search with Leave-One-Subject-Out cross-validation technique has been used to train and validate the models with the optimal hyperparameters.
 
 ## Deep Learning
-An LSTM on the augmented dataset has been applied as a Deep Learning approach. For this purpose, the BPM and Skin Temperature sequences have been considered by considering only the baseline and stress protocol states. First, a PAR model has been trained to generate synthetic signals by considering the time variable and ID for independent sequences within subjects. Then, a one-layer LSTM was applied with 16 neurons and trained with a Leave-One-Subject-Out cross-validation technique.
+Gramian Angular Field images have been used for this part, where each channel of the image corresponds to a time series plus the third additional channel which is a black channel, for standard requirement. A standard CNN architecture has been trained with a k-fold cross-validation technique, reaching accuracy of 60%.
 
 ## Results
-Despite the promising results achieved from the LSTM, the poor number of subjects and the visual inspection of the loss functions throw the topics led to a clear overfitting of the model. Thus, Logistic Regression reached slightly better metrics and has been selected as an optimal model due to its trade-off between F1 score and scoring time. 
+Despite the promising results of GAF-CNN, the poor number of subjects and the visual inspection of the loss functions throw the topics led to a clear overfitting of the model. Thus, Logistic Regression reached better metrics and has been selected as an optimal model due to its trade-off between F1 score and scoring time. 
 
 ## References
 https://towardsdatascience.com/quickly-test-multiple-models-a98477476f0
