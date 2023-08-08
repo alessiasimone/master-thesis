@@ -11,37 +11,19 @@ This project compares both solutions to balance model capability and accuracy, a
 ```
 codes/
 ├─ EDA.ipynb
-├─ data_preprocessing.ipynb
 ├─ preprocessing_wesad.ipynb
 ├─ ML/
 │  ├─ classifier.sav
 │  ├─ machine_learning.ipynb
 │  ├─ scaler.pkl
 ├─ DL/
-│  ├─ LSTM.ipynb
+│  ├─ gaf-imgs.ipynb
+│  ├─ gaf-cnn.ipynb
 ├─ arduino/
 │  ├─ Classifier.h
 │  ├─ Final_code.ino
 │  ├─ Scaler.h
-individual_lag_features/
-├─ lags_dataset_0.csv
-├─ lags_dataset_1.csv
-├─ lags_dataset_2.csv
-├─ lags_dataset_3.csv
-├─ lags_dataset_4.csv
-├─ lags_dataset_5.csv
-├─ lags_dataset_6.csv
-├─ lags_dataset_7.csv
-├─ lags_dataset_8.csv
-├─ lags_dataset_9.csv
-├─ lags_dataset_10.csv
-├─ lags_dataset_11.csv
-├─ lags_dataset_12.csv
-├─ lags_dataset_13.csv
-├─ lags_dataset_14.csv
 README.md
-lags_dataset.csv
-scaled_dataset.csv
 
 ```
 
