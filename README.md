@@ -7,25 +7,7 @@ However, many scientists are still investigating the proposal of intelligent wea
 While supervised learning models are presented as a more agile solution, deep learning models usually appear more laborious but more accurate. 
 This project compares both solutions to balance model capability and accuracy, aiming to propose a tool to support experts in the field during psychological therapies. 
 
-### Folder Structure
-```
-codes/
-├─ EDA.ipynb
-├─ preprocessing_wesad.ipynb
-├─ ML/
-│  ├─ classifier.sav
-│  ├─ machine_learning.ipynb
-│  ├─ scaler.pkl
-├─ DL/
-│  ├─ gaf-imgs.ipynb
-│  ├─ gaf-cnn.ipynb
-├─ arduino/
-│  ├─ Classifier.h
-│  ├─ Final_code.ino
-│  ├─ Scaler.h
-README.md
-
-```
+The EDA part is available as interactive dashboard at https://public.tableau.com/views/EDA_16881347825580/Dashboard1?:language=it-IT&:display_count=n&:origin=viz_share_link
 
 ## Machine Learning
 This project evaluates extracted statistical lag features from the BPM and Skin Temperature signals with an overlapping window of 3 seconds. The models tried out were: Logistic Regression, Gaussian Naive Bayes, Random Forest and Extreme Gradient Boosting. The optimal model regarding the weighted F1 score and score time has been chosen. Halving Grid Search with Leave-One-Subject-Out cross-validation technique has been used to train and validate the models with the optimal hyperparameters.
