@@ -1,5 +1,4 @@
 * Preprocessing_wesad is related to the preprocessing step, including resampling and moving average,
-* EDA notebook is related to the Exploratory Data Analysis,7
 * Lag_features is related to the features extraction for the machine learning part,
 * Machine_learning involves the supervised machine learning algorithms,
 * Ml-tuning considers the tuning of the optimal model,
